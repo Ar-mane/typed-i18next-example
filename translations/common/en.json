@@ -1,0 +1,15 @@
+{
+  "testing": {
+    "testingKey": "This text is used to test the mobile app."
+  },
+  "cancelButton": "Cancel",
+  "backButton": "Back",
+  "continueButton": "Continue",
+  "understoodButton": "Understood",
+  "nextButton": "Next",
+  "validateButton": "Validate",
+  "finishButton": "Finish",
+  "editButton": "Edit",
+  "updateButton": "Update",
+  "appName": "use Typed i18n Translations"
+}

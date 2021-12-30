@@ -1,0 +1,13 @@
+{
+  "testing": { "testingKey": "Ce texte sert à tester l'application mobile." },
+  "cancelButton": "Annuler",
+  "backButton": "Retour",
+  "continueButton": "Continuer",
+  "understoodButton": "J'ai compris",
+  "nextButton": "Suivant",
+  "validateButton": "Valider",
+  "finishButton": "Terminer",
+  "editButton": "Modifier",
+  "updateButton": "Mettre à jour",
+  "appName": "utiliser i18n Translations tapé"
+}
