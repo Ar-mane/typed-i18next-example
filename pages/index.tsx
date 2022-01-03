@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { TypedTransComponent } from "../i18n/components/TypedTransComponent";
-import { useTypedTranslation } from "../i18n/hooks";
-import { initI18n } from "../services/localization/i18n";
-import styles from "../styles/Home.module.css";
-import { nameSpaces } from "../translations";
+import { TypedTransComponent } from "~/localization/components/TypedTransComponent";
+import { useTypedTranslation } from "~/localization/hooks";
+import { initI18n } from "~/localization/services/i18n";
+import { nameSpaces } from "~/localization/translations";
+import styles from "~/styles/Home.module.css";
 
 initI18n();
 
@@ -21,6 +21,9 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        <h1 className={styles.header}>
+          {t("signin.hello", { user: "DevGenieur" })}
+        </h1>
         <h1 className={styles.title}>
           <TypedTransComponent
             i18nKey="signin.header"
