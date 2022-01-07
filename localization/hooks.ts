@@ -6,8 +6,8 @@ import {
   UseTranslationOptions,
   UseTranslationResponse,
 } from "react-i18next";
-import { NameSpace, TranslationKey } from "../translations";
-
+import { NameSpace, TranslationKey } from "./translations";
+ 
 type TypedNameSpaceOptions = TOptions & { ns?: NameSpace };
 type TypedTranslationOptions = string | TypedNameSpaceOptions | undefined;
 

@@ -1,5 +1,5 @@
 {
-  "testing": { "testingKey": "Ce texte sert à tester l'application mobile." },
+  "testing": { "testingKey": "Ce texte sert à tester l'application." },
   "cancelButton": "Annuler",
   "backButton": "Retour",
   "continueButton": "Continuer",

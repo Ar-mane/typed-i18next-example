@@ -1,8 +1,0 @@
-{
-  "signin": {
-    "signinButton": "Connexion",
-    "term&policy": "En cliquant sur Connexion, vous acceptez <signed> nos Conditions. <signed>",
-    "hint": "Si vous avez déjà un compte, créez-en un",
-    "header": "Bienvenue à <Link> typed-i18next </Link>"
-  }
-}

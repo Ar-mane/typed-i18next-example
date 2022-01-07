@@ -1,6 +1,6 @@
 import React from "react";
 import { Trans } from "react-i18next";
-import { NameSpace, TranslationKey } from "../../translations";
+import { NameSpace, TranslationKey } from "~/localization/translations";
 
 interface TypedTransComponentProps {
   i18nKey: TranslationKey;

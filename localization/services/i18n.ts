@@ -6,7 +6,8 @@ import {
   keySeparator,
   nameSpaceNames,
   resources,
-} from "../../translations";
+} from "~/localization/translations";
+
 import LanguageDetector from "i18next-browser-languagedetector";
 
 export function initI18n(locale?: string): void {
